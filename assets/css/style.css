@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@600&display=swap');
+
+:root{
+    --br-default: 38px;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc-tittle{
+    font-size: 32px;
+}
+
+.display-controls{
+    display: flex;
+    justify-content: space-between;
+}
+
+.display-themes{
+    display: flex;
+    align-items: end;
+    gap: 5px;
+}
+
+.theme{
+    height: 20px;
+    width: initial;
+    padding: 0;
+    margin: 0;
+}
+
+.themes-selector{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.selector{
+    font-family: 'Inter', sans-serif;
+}
+
+.calculator{
+    border-radius: 15px;
+    padding: .5rem;
+    max-width: 359px;
+}
+
+.line{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+
+.fifth{
+    display: flex;
+
+}
+
+.fifth > *{
+    flex-basis: 50%;
+}
+
+h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 1.8rem;
+}
+
+input{
+    font-size: 32px;
+    padding: .5rem;
+    height: 4.8rem;
+    margin: 5px;    
+    background-color: transparent;
+    border-style: none;
+    font-family: 'Inter', sans-serif;
+}
+
+.control-delete,
+.number,
+.operator,
+.control-reset,
+.control-submit{
+    border-radius: var(--br-default);
+}
+
+.display-result{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    
+}
+
+.label-result{
+    font-family: 'Inter', sans-serif;
+    font-size: 2.5rem;
+    overflow: hidden;
+}
+
+
+
+.selectors,
+.radio-selectors{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.radio-selectors{
+    border-radius: 15px;
+}
+
+.radio-selectors > *{
+    appearance: none;
+
+}
+
+.theme{
+    margin: 3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    transition: .3s;
+}
+
+.theme:nth-child(1):checked{
+    background-color: rgb(48, 91, 139);
+}
+.theme:nth-child(2):checked{
+    background-color: rgb(195, 0, 255);
+}
+.theme:nth-child(3):checked{
+    background-color: rgb(0, 238, 255);
+}

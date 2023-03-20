@@ -1,0 +1,68 @@
+body{
+    background-image: url("../../images/peakpx-3.jpg");
+}
+
+.calculator{
+    background-color: #e9e9decf;
+}
+
+.label-result,
+.selector,
+h2{
+    color: rgb(0, 0, 0);
+}
+
+input{
+    color: white;
+}
+
+.radio-selectors{
+    background-color: white;
+}
+
+
+.number{
+    background-color: rgb(85 89 118);
+}
+
+.number:active{
+    background-color: rgb(108, 113, 150);
+}
+
+.operator{
+    background-color: rgb(139, 43, 123);
+}
+
+.operator:active{
+    background-color: rgb(172, 83, 157);
+}
+
+.operator-modify:active{
+    background-color: rgb(43, 125, 131);
+}
+
+.control-delete{
+    background-color: rgb(61, 167, 131);
+    color: rgb(255, 255, 255);
+}
+
+.control-delete:active{
+    background-color: rgb(97, 204, 168);
+}
+
+.control-reset{
+    color: black;
+    background-color: rgb(145, 147, 173);
+}
+.control-reset:active{
+    background-color: rgb(171, 171, 185);
+}
+
+.control-submit{
+    color: white;
+    background-color: #434970;
+}
+
+.control-submit:active{
+    background-color: #5f6696;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style-theme-one.css">
+  <link rel="stylesheet" href="assets/css/style-reset.css">
+  
+  <title>Frontend Mentor | Calculator app</title>
+</head>
+<body>
+  <main class="calculator">
+    <aside class="calculator-display">
+      <section class="display-controls">
+        <h2 class="calc-tittle">calc</h2>
+        <div class="display-themes">
+          <p class="selector">theme</p>
+          <div class="themes-selector">
+            <div class="selectors">
+              <p class="selector">1</p>
+              <p class="selector">2</p>
+              <p class="selector">3</p>
+            </div>
+            <div class="radio-selectors">
+              <input name="theme" type="radio" class="theme one" checked>
+              <input name="theme" type="radio" class="theme two">
+              <input name="theme" type="radio" class="theme three">
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="display-result">
+        <label for="text" class="label-result">
+          <p class="result"></p>
+        </label>
+      </section>
+    </aside>
+    <article class="calculator-keyboard">
+      <div class="line first">
+        <input class="number item" type="button" value="7">
+        <input class="number item" type="button" value="8">
+        <input class="number item" type="button" value="9">
+        <input class="control-delete" type="button" value="DEL">
+      </div>
+      <div class="line second">
+        <input class="number item" type="button" value="4">
+        <input class="number item" type="button" value="5">
+        <input class="number item" type="button" value="6">
+        <input class="operator pluss item" type="button" value="+">
+      </div>
+      <div class="line third">
+        <input class="number item" type="button" value="1">
+        <input class="number item" type="button" value="2">
+        <input class="number item" type="button" value="3">
+        <input class="operator less item" type="button" value="-">
+      </div>
+      <div class="line fourth">
+        <input class="number item" type="button" value=".">
+        <input class="number item" type="button" value="0">
+        <input class="operator division  item" type="button" value="/">
+        <input class="operator multiplication item" type="button" value="*">
+      </div>
+      <div class="line fifth">
+        <input class="control-reset"  type="button" value="Reset">
+        <input class="control-submit" type="button" value="=">
+      </div>
+    </article>
+  </main>
+
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

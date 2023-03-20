@@ -103,7 +103,7 @@ input{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    
+    overflow: hidden;
 }
 
 .calculator-display{

@@ -5,11 +5,11 @@
 
 <div align="center">
   <h3>
-    <a href=" " color="white">
+    <a href="https://main--joyful-stroopwafel-7b0faa.netlify.app/" color="white">
       Live
     </a>
     <span> | </span>
-    <a href="">
+    <a href="https://www.frontendmentor.io/solutions/calculator-app-main-cyber-punk-style-ggLZBs_iYI">
       Solution
     </a>
    <span> | </span>
@@ -51,7 +51,7 @@ This is a solution to the [Calculator App Main](https://www.frontendmentor.io/ch
 
 ### What I learned
 
-In this challenge, I learned practical fundamentals of flexbox, CSS style and .fundamentals and intermediate knowledge of Javascript, without using any framework. Another step of fundamental importance is related to the semantics of HTML and Javascript, in order to make the code more readable.
+In this challenge, I learned practical fundamentals of flexbox, CSS style and fundamentals and intermediate knowledge of Javascript, without using any framework. Another step of fundamental importance is related to the semantics of HTML and Javascript, in order to make the code more readable.
 
 ## Author
 

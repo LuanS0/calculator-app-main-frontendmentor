@@ -106,13 +106,16 @@ input{
     
 }
 
+.calculator-display{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .label-result{
     font-family: 'Inter', sans-serif;
     font-size: 2.5rem;
-    overflow: hidden;
 }
-
-
 
 .selectors,
 .radio-selectors{

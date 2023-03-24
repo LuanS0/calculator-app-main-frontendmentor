@@ -9,7 +9,7 @@
       Live
     </a>
     <span> | </span>
-    <a href="https://www.frontendmentor.io/solutions/calculator-app-main-cyber-punk-style-ggLZBs_iYI">
+    <a href="https://www.frontendmentor.io/solutions/calculator-app-main-cyber-punk-style-InOu2oauEJ">
       Solution
     </a>
    <span> | </span>

@@ -17,7 +17,9 @@ table, caption, tbody, tfoot, thead, tr, th, td {
 	font-size: 100%;
 	vertical-align: baseline;
     box-sizing: border-box;
-    transition: .5s;
+    transition: color .5s ease-in-out;
+	transition: background-image .3s ease-in-out;
+	
 }
 body {
 	line-height: 1;
